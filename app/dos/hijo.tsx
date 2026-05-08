@@ -1,4 +1,8 @@
-export default function Hijo ({children}) {
+interface Props {
+    children: React.ReactNode;
+}
+
+export default function Hijo ({children}: Props) {
 
 
     return(

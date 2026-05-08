@@ -3,9 +3,9 @@ import Hijo from "./hijo";
 export default function Dos() {
   return (
     <div>
-        <hijo>
+        <Hijo>
             dos
-        </hijo>    
+        </Hijo>    
     </div>
   );
 }
