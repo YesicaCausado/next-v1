@@ -1,8 +1,12 @@
-export default function Home(){
+"use client";
+import { useAppContext } from "./contexto/AppContext";
 
-  return(
+export default function Home() {
+  const { nombre } = useAppContext();
+
+  return (
     <div>
-
+      <p>Hola {nombre}</p>
     </div>
   );
 }
