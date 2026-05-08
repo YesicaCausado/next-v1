@@ -4,7 +4,7 @@ export default function Uno() {
   return (
     <div>
         uno 
-        <Props nombre = "este es un props"></Props>
+        <Props nombre = "este es un props 123"></Props>
       
     </div>
   );
